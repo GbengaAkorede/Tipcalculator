@@ -1,0 +1,88 @@
+@import "configs.css";
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Manrope' , sans-serif;
+    transition: 1s ease-in-out;
+    
+}
+body{
+    background-color: var(--tertairy-color);
+    height: 100vh;
+}
+.container{
+    /* background-color: red; */
+    width: auto;
+    margin: 20px 20px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+
+   
+}
+main{
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin: 0 20px;
+}
+.tip{
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   margin: 20px auto;
+   background-color: white;
+   width: 100%;
+   transform: width 2s;
+   border-radius: 10px;
+   /* align-items: center; */
+   height: 100%;
+   /* border: 5px solid; */
+    /* position: absolute;
+    top: 50%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* padding: 10px; */
+    box-shadow: 2px 2px 2px 1px rgb(161, 160, 160);
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+h3{
+    font-size: var(--small);
+    color: var(--primary-color);
+}
+h1{
+    font-size: var(--semi-large);
+    color: var(--primary2-color);
+
+}
+
+@media screen and (min-width: 768px) {
+    h3{
+        font-size: var(--small);
+    }
+    h1{
+        font-size: var(--large);
+    
+    }
+    .container{
+        
+        transform: width 2s;
+        /* align-items: center; */
+        
+     
+     }
+     .tip{
+        width: 30%;
+
+     }
+}

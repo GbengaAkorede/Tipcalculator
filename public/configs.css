@@ -1,0 +1,23 @@
+:root{
+    --primary-color: #293356;
+    --primary-color2: #a0a4b4;
+    --secondary-color: #10d5c2;
+    --tertairy-color: #f1f5fe;
+    /* size */
+    --small: 12px;
+    --large: 1.3em;
+    --semi-large: 1em
+}
+
+/* @font-face {
+    font-family: "Kartika Bold";
+    src: url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.eot");
+    src: url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/bb1045132f8d0c83aa339e311194f072.svg#Kartika Bold")format("svg");
+} */
+h1{
+
+}
