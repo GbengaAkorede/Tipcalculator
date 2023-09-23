@@ -99,10 +99,14 @@ h1{
     /* display: none; */
     text-align: center;
 }
-span{
+#span-price{
     color:var(--primary-color2);
     font-size: 15px;
 
+}
+#span-views{
+    color:var(--primary-color2);
+    font-weight: 600;
 }
 .price-all{
     color:var(--primary-color);
