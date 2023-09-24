@@ -17,8 +17,8 @@ document.addEventListener('mouseup', () => {
 // Listen for mousemove events and update the price accordingly
 document.addEventListener('mousemove', (e) => {
   if (isDragging) {
-    const xPosition = e.clientX - draggableButton.offsetWidth / 2;
-    const price = Math.max(10, Math.min(100, Math.round(xPosition / 4)));
+    const xPosition = e.clientX - draggableButton.offsetWidth / 4;
+    const price = Math.max(8, Math.min(36, Math.round(xPosition / 4)));
     const views = Math.max(10, Math.min(1000, Math.round(xPosition / 10)));
     
     draggableButton.style.left = xPosition + 'px';
