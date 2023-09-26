@@ -23,6 +23,6 @@ document.addEventListener('mousemove', (e) => {
     
     draggableButton.style.left = xPosition + 'px';
     priceDisplay.textContent = `$${price.toFixed(2)}` + " ";
-    viewsDisplay.textContent = `${views}` + " ";
+    viewsDisplay.textContent = `${views}K` + " ";
   }
 });
